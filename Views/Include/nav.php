@@ -7,24 +7,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-
+                <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Books</a>
-
+                <a class="nav-link" href="../book.php">Books</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Forum</a>
-
+                <a class="nav-link" href="../message.php">Forum</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
-
             </li>
 
         </ul>
@@ -37,7 +30,7 @@
 
     ?>
             <li class="nav-item">
-                <a class="nav-link" href="#"> My Account</a>
+                <a class="nav-link" href="../profile.php"> My Account</a>
 
             </li>
 
@@ -51,12 +44,12 @@
 
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="../login.php">Login</a>
 
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
+                <a class="nav-link" href="../register.php">Register</a>
 
             </li>
 
