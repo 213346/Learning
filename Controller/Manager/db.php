@@ -1,7 +1,16 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: KINGGHOST
- * Date: 28/07/2018
- * Time: 14:01
- */ 
+
+$user = "root";
+$password = "root";
+$hostname = "localhost";
+$dbname = "learning";
+$db = null;
+try {
+    $db = new PDO('mysql:host=' . $hostname . ';dbname=' . $dbname, $user, $password);
+}
+catch (Exception $e)
+{
+    echo $e->getMessage();
+}
+
+?>
