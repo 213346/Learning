@@ -22,16 +22,22 @@ require_once('./Include/nav.php');
             <?php for ($i=1; $i<11; $i++){ ?>
                 <?php if ($i%2==0) { ?>
                     <div class="card mb-2">
-                        <div class="card-body">
+                        <div class="card-header">
                             User <?php echo $i; ?>
-                            <a href="#" class="fa fa-comments pull-right" aria-hidden="true"></a>
+                            <a href="#" data-mylink="<?php echo "chat$i"; ?>" class="fa fa-comments pull-right linkChat" aria-hidden="true"></a>
+                        </div>
+                        <div id="<?php echo "chat$i"; ?>" class="card-body chatContent">
+
                         </div>
                     </div>
                 <?php }else { ?>
-                    <div class="card mb-2 bg-info">
-                        <div class="card-body text-white">
+                    <div class="card mb-2 ">
+                        <div class="card-header bg-success text-white ">
                             User <?php echo $i; ?>
-                            <a href="#" class="fa fa-comments pull-right text-white" aria-hidden="true"></a>
+                            <a  data-mylink="<?php echo "chat$i"; ?>" href="#" class="fa fa-comments pull-right text-white linkChat" aria-hidden="true"></a>
+                        </div>
+                        <div id="<?php echo "chat$i"; ?>" class="card-body chatContent">
+
                         </div>
                     </div>
                 <?php } ?>
